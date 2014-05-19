@@ -34,8 +34,8 @@ var config = {};
 try {
   config = require('./providers.json');
 } catch(err) {
-  console.error('Please configure your passport strategy in `providers.json`.');
-  console.error('Copy `providers.json.template` to `providers.json` and replace the clientID/clientSecret values with your own.');
+  console.error('Can\'t find `providers.json`.');
+  console.error('This file is required and contains sensitive credentials so is not included in the public repository.');
   process.exit(1);
 }
 
