@@ -1,7 +1,8 @@
 {
   "db": {
-    "defaultForType": "db",
-    "connector": "memory"
+    "defaultForType": "mongodb",
+    "connector": "loopback-connector-mongodb",
+    "url": "mongodb://localhost:27017/horizons"
   },
   "push": {
     "defaultForType": "push",

@@ -1,5 +1,5 @@
 {
-  "name": "loopback-example-passport",
+  "name": "horizons-app",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
@@ -13,7 +13,8 @@
     "connect-ensure-login": "~0.1.1",
     "ejs": "~1.0.0",
     "passport-google-oauth": "~0.1.5",
-    "passport-oauth2": "~1.1.2"
+    "passport-oauth2": "~1.1.2",
+    "loopback-connector-mongodb": "^1.2.5"
   },
   "optionalDependencies": {
     "loopback-explorer": "~1.1.0",
